@@ -7,13 +7,9 @@ activate :directory_indexes
 configure :build do
   activate :minify_css
   activate :minify_javascript
+end
 
-  # Enable cache buster
-  # activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+activate :deploy do |deploy|
+	deploy.build_before = true
+	deploy.method = :git
 end
