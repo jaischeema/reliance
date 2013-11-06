@@ -1,0 +1,139 @@
+/*** Media Types ****/
+@media (max-width: 960px) {
+  /* line 5, ../_sass/media.scss */
+  #contact-info {
+    padding: 10px 40px;
+  }
+  /* line 8, ../_sass/media.scss */
+  #contact-info .header {
+    margin-top: 20px;
+    color: #2b7baa;
+    font-size: 22px;
+  }
+  /* line 14, ../_sass/media.scss */
+  #contact-info .header + p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.2em;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
+
+  /* line 23, ../_sass/media.scss */
+  #contact-large {
+    display: none;
+  }
+
+  /* line 27, ../_sass/media.scss */
+  #contact-small {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  /* line 35, ../_sass/media.scss */
+  #features {
+    margin-top: 20px;
+    text-align: left;
+  }
+  /* line 40, ../_sass/media.scss */
+  #features h3 {
+    float: left;
+  }
+  /* line 45, ../_sass/media.scss */
+  #features p {
+    display: block;
+    clear: both;
+  }
+  /* line 51, ../_sass/media.scss */
+  #features .divider {
+    background: url(/images/footer-divider.png) repeat-x bottom;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  /* line 58, ../_sass/media.scss */
+  .fixed-bar {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  /* line 62, ../_sass/media.scss */
+  .fixed-bar .inner {
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    height: 40px;
+  }
+  /* line 69, ../_sass/media.scss */
+  .fixed-bar .inner .container {
+    padding: 0;
+    width: auto;
+  }
+
+  /* line 78, ../_sass/media.scss */
+  #page-title h1 {
+    font-size: 22px;
+  }
+
+  /* line 84, ../_sass/media.scss */
+  #navigation .inner {
+    padding-right: 5px;
+    padding-right: 0px;
+  }
+  /* line 88, ../_sass/media.scss */
+  #navigation ul {
+    padding-top: 8px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  /* line 96, ../_sass/media.scss */
+  .featureicon, #features h3, #features p {
+    padding: 0;
+  }
+
+  /* line 101, ../_sass/media.scss */
+  .featureicon {
+    float: left;
+    margin-right: 10px;
+  }
+
+  /* line 107, ../_sass/media.scss */
+  #footer {
+    margin-top: 0px;
+  }
+
+  /* line 112, ../_sass/media.scss */
+  #contact-info {
+    padding: 10px;
+  }
+
+  /* line 117, ../_sass/media.scss */
+  #contact-small .inner {
+    height: 55px;
+  }
+  /* line 120, ../_sass/media.scss */
+  #contact-small h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 128, ../_sass/media.scss */
+  #navigation {
+    height: 135px;
+  }
+  /* line 130, ../_sass/media.scss */
+  #navigation ul {
+    padding-top: 4px;
+    font-size: 15px;
+  }
+  /* line 134, ../_sass/media.scss */
+  #navigation ul li {
+    display: block;
+  }
+
+  /* line 141, ../_sass/media.scss */
+  #myModal h1 {
+    font-size: 42px;
+  }
+}
